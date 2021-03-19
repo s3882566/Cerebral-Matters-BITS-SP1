@@ -1,0 +1,50 @@
+Base path: 'C:/Program Files/Unity/2019.3.10f1/Editor/Data', plugins path 'C:/Program Files/Unity/2019.3.10f1/Editor/Data/PlaybackEngines'
+Cmd: initializeCompiler
+Cmd: compileComputeKernel
+  api=4 insize=9809 outsize=6108 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=17994 outsize=7462 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=4823 outsize=662 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=40264 outsize=37933 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=40264 outsize=41874 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=22295 outsize=15906 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=8233 outsize=1857 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=6119 outsize=2708 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=6745 outsize=695 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=6745 outsize=3091 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=26542 outsize=15619 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=16295 outsize=67477 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=16295 outsize=47885 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=16295 outsize=16046 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=16295 outsize=37654 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=16295 outsize=35998 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=16295 outsize=47854 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=16295 outsize=36177 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=7696 outsize=5189 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=3916 outsize=1613 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=10587 outsize=3155 ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1460 outsize=2866 kw=UNITY_PASS_FORWARDADD SPOT _SPECULARHIGHLIGHTS_OFF pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=12627 outsize=666 kw=UNITY_PASS_PREPASSFINAL LIGHTPROBE_SH pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR ok=1
+
+Quitting shader compiler process
