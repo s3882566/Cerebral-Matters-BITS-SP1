@@ -1,0 +1,2 @@
+22.03.2021
+**updated game to work with Unity version 2019.4.22f1** 
