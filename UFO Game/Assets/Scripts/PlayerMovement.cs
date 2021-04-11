@@ -9,6 +9,9 @@ public class PlayerMovement : MonoBehaviour
 
     public float max_speed;
 
+    public float slowMovementModifier = 0.5f;
+    private float slowedMovement;
+
     private Rigidbody2D rb;
 
     void Start()
@@ -18,22 +21,28 @@ public class PlayerMovement : MonoBehaviour
 
     void FixedUpdate()
     {
+
+
         if (Input.GetButton("Fire1"))
         {
-
-        }
-        else
+            slowedMovement = max_speed * slowMovementModifier;
+            movePlayer(slowedMovement);
+        } else
         {
-            float x_movement = Input.GetAxis("Horizontal");
-            float y_movement = Input.GetAxis("Vertical");
-            if (rb.velocity.magnitude < max_speed)
-            {
-                Vector3 movement = new Vector3(x_movement, y_movement);
-                rb.AddForce(movement_scalar * movement);
-            }
+            movePlayer(max_speed);
         }
 
-            
+    }
+
+    void movePlayer(float movementSpeed)
+    {
+        float x_movement = Input.GetAxis("Horizontal");
+        float y_movement = Input.GetAxis("Vertical");
+        if (rb.velocity.magnitude < movementSpeed)
+        {
+            Vector3 movement = new Vector3(x_movement, y_movement);
+            rb.AddForce(movement_scalar * movement);
+        }
     }
 
    
