@@ -40,11 +40,21 @@ public class PauseMenuLogic : MonoBehaviour
 
     public void LoadSettingsMenu()
     {
-        
+        SceneManager.LoadScene("SettingsMenu");
     }
     public void LoadMainMenu()
     {
         Debug.Log("Loading main menu");
         SceneManager.LoadScene("MainMenu");
     }
+
+    public void LaunchGame()
+    {
+        // This loads a specific scene
+        SceneManager.LoadScene("TestScene");
+
+        // This loads the next scene in the build queue
+        // SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    }
+
 }

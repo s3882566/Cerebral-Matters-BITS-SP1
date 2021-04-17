@@ -4,9 +4,11 @@ ScriptsOnlyBuild:
     - CameraMovement
     - Laser
     - MainMenuLogic
+    - PauseMenuLogic
     - PlayerMovement
     - RunAway
     - SettingsMenuLogic
+    - TitleMenuLogic
     - TractorBeam
     Unity.2D.Animation.Editor.dll:
     - UnityEditor.U2D.Animation.BoneGizmo
@@ -54,9 +56,120 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
+    - UnityEngine.UI.Shadow
     - UnityEngine.UI.Slider
   sceneClasses:
     Assets/Scenes/Menus/MainMenu.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1748}
+    - Class: 114
+      Script: {instanceID: 2074}
+    - Class: 114
+      Script: {instanceID: 2766}
+    - Class: 114
+      Script: {instanceID: 2916}
+    - Class: 114
+      Script: {instanceID: 2958}
+    - Class: 114
+      Script: {instanceID: 3088}
+    - Class: 114
+      Script: {instanceID: 3304}
+    - Class: 114
+      Script: {instanceID: 3424}
+    - Class: 114
+      Script: {instanceID: 4246}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/Menus/SettingsMenu.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1748}
+    - Class: 114
+      Script: {instanceID: 1968}
+    - Class: 114
+      Script: {instanceID: 2074}
+    - Class: 114
+      Script: {instanceID: 2766}
+    - Class: 114
+      Script: {instanceID: 2916}
+    - Class: 114
+      Script: {instanceID: 2958}
+    - Class: 114
+      Script: {instanceID: 3088}
+    - Class: 114
+      Script: {instanceID: 3304}
+    - Class: 114
+      Script: {instanceID: 3424}
+    - Class: 114
+      Script: {instanceID: 3926}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 241
+      Script: {instanceID: 0}
+    - Class: 243
+      Script: {instanceID: 0}
+    - Class: 245
+      Script: {instanceID: 0}
+    Assets/Scenes/Menus/TitleMenu.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -78,8 +191,6 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1748}
     - Class: 114
-      Script: {instanceID: 1968}
-    - Class: 114
       Script: {instanceID: 2074}
     - Class: 114
       Script: {instanceID: 2386}
@@ -96,15 +207,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3424}
     - Class: 114
-      Script: {instanceID: 4242}
+      Script: {instanceID: 4454}
     - Class: 114
-      Script: {instanceID: 4450}
+      Script: {instanceID: 4572}
     - Class: 114
-      Script: {instanceID: 4568}
+      Script: {instanceID: 4906}
     - Class: 114
-      Script: {instanceID: 4902}
-    - Class: 114
-      Script: {instanceID: 26228}
+      Script: {instanceID: 29158}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -155,18 +264,40 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
+      Script: {instanceID: 1748}
+    - Class: 114
+      Script: {instanceID: 2000}
+    - Class: 114
+      Script: {instanceID: 2074}
+    - Class: 114
+      Script: {instanceID: 2766}
+    - Class: 114
+      Script: {instanceID: 2916}
+    - Class: 114
+      Script: {instanceID: 2958}
+    - Class: 114
+      Script: {instanceID: 3088}
+    - Class: 114
       Script: {instanceID: 3126}
+    - Class: 114
+      Script: {instanceID: 3304}
     - Class: 114
       Script: {instanceID: 3414}
     - Class: 114
       Script: {instanceID: 3420}
     - Class: 114
+      Script: {instanceID: 3424}
+    - Class: 114
       Script: {instanceID: 3438}
     - Class: 114
-      Script: {instanceID: 5212}
+      Script: {instanceID: 4204}
+    - Class: 114
+      Script: {instanceID: 5216}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
+      Script: {instanceID: 0}
+    - Class: 128
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
@@ -175,6 +306,18 @@ ScriptsOnlyBuild:
     - Class: 212
       Script: {instanceID: 0}
     - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 241
+      Script: {instanceID: 0}
+    - Class: 243
+      Script: {instanceID: 0}
+    - Class: 245
       Script: {instanceID: 0}
     - Class: 850595691
       Script: {instanceID: 0}
@@ -643,6 +786,12 @@ ScriptsOnlyBuild:
     className: PositionAsUV1
   - hash:
       serializedVersion: 2
+      Hash: d835e37be8caf473a0d64dc941f2a2a8
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SettingsMenuLogic
+  - hash:
+      serializedVersion: 2
       Hash: 87ff43d2baf3385cba327d8f803a4ebb
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -701,6 +850,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.2D.SpriteShape.Runtime.dll
     namespaceName: UnityEngine.U2D
     className: SpriteShape
+  - hash:
+      serializedVersion: 2
+      Hash: c8c5e65e9fb858572516474d6e2102bc
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PauseMenuLogic
   - hash:
       serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
@@ -946,9 +1101,11 @@ ScriptsOnlyBuild:
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: SettingsMenuLogic
+    className: TitleMenuLogic
   platform: 2
   scenePathNames:
+  - Assets/Scenes/Menus/TitleMenu.unity
   - Assets/Scenes/Menus/MainMenu.unity
+  - Assets/Scenes/Menus/SettingsMenu.unity
   - Assets/Scenes/TestScene.unity
   playerPath: /Users/jakepatrick/Git repositories/TBD-2DGame-BITS-G7/UFO Game/MenuTestBuild.app
