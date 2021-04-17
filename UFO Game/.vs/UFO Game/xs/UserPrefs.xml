@@ -1,8 +1,9 @@
 ﻿<Properties StartupConfiguration="{FC588EBC-8499-46DC-2C88-3411EA4227F4}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/MainMenuLogic.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PauseMenuLogic.cs">
     <Files>
-      <File FileName="Assets/Scripts/MainMenuLogic.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/SettingsMenuLogic.cs" Line="19" Column="1" />
+      <File FileName="Assets/Scripts/MainMenuLogic.cs" Line="20" Column="1" />
+      <File FileName="Assets/Scripts/SettingsMenuLogic.cs" Line="20" Column="1" />
+      <File FileName="Assets/Scripts/PauseMenuLogic.cs" Line="51" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -10,7 +11,7 @@
           <Node name="UFO Game" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="MainMenuLogic.cs" selected="True" />
+                <Node name="PauseMenuLogic.cs" selected="True" />
               </Node>
             </Node>
           </Node>
@@ -20,7 +21,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="75bf59bd-4734-46e3-b93a-24e98bca5c24" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="1015f7de-bcc2-4a26-a224-d87303b2242d" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
