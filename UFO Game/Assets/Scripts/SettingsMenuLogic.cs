@@ -1,18 +1,19 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Audio;
 
 public class SettingsMenuLogic : MonoBehaviour
 {
+    public AudioMixer audioMixer;
+
     public void setMusicVolume(float musicVolume)
     {
-        // debug placeholder to display volume variable
-        Debug.Log(musicVolume);
+        audioMixer.SetFloat("volume", musicVolume);
     }
 
     public void setSFXVolume(float sFXVolume)
     {
-        // debug placeholder to display volume variable
-        Debug.Log(sFXVolume);
+        audioMixer.SetFloat("sfx", sFXVolume);
     }
 }
