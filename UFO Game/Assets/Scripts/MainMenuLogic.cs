@@ -8,9 +8,12 @@ public class MainMenuLogic : MonoBehaviour
 
     public void launchGame()
     {
-    SceneManager.LoadScene("TestScene");
-    }
+        // This loads a specific scene
+        // SceneManager.LoadScene("TestScene");
 
+        // This loads the next scene in the build queue
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    }
 
     public void goToSettingsMenu()
     {
@@ -19,6 +22,7 @@ public class MainMenuLogic : MonoBehaviour
 
     public void quitGame()
     {
-      Application.Quit();
+        Debug.Log("Debug: Quit button is working!");
+        Application.Quit();
     }
 }
