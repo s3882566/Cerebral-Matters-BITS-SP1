@@ -566,8 +566,9 @@ GameObject:
   - component: {fileID: 176389616}
   - component: {fileID: 176389617}
   - component: {fileID: 176389618}
+  - component: {fileID: 176389619}
   m_Layer: 0
-  m_Name: GameManager
+  m_Name: MenuManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -612,6 +613,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioMixer: {fileID: 24100000, guid: afa0370d234dd412b90ee07a68c9911b, type: 2}
+--- !u!114 &176389619
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 176389615}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7dcb844d7a234f7ea018ebf2c6d4f04, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pauseMenuUI: {fileID: 0}
 --- !u!1 &252758676
 GameObject:
   m_ObjectHideFlags: 0
@@ -2285,7 +2299,7 @@ GameObject:
   - component: {fileID: 1059459146}
   - component: {fileID: 1059459145}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: MainMenusCanvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2343,7 +2357,7 @@ Canvas:
   m_RenderMode: 0
   m_Camera: {fileID: 0}
   m_PlaneDistance: 100
-  m_PixelPerfect: 0
+  m_PixelPerfect: 1
   m_ReceivesEvents: 1
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
