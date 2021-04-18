@@ -139,6 +139,7 @@ GameObject:
   - component: {fileID: 137923722}
   - component: {fileID: 137923716}
   - component: {fileID: 137923717}
+  - component: {fileID: 137923724}
   - component: {fileID: 137923723}
   m_Layer: 0
   m_Name: Player (UFO)
@@ -388,6 +389,21 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &137923724
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 137923715}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e948d1fdb32b2f48a523f00dbd07059, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Audio1: {fileID: 8300000, guid: 978a9367323b0324987ebd942cd95935, type: 3}
+  Audio2: {fileID: 8300000, guid: fca8c08a0b2c27e4fb7b7af65996d16d, type: 3}
+  Audio3: {fileID: 0}
 --- !u!1 &238375878
 GameObject:
   m_ObjectHideFlags: 0
