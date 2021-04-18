@@ -93,7 +93,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3424}
     - Class: 114
-      Script: {instanceID: 4246}
+      Script: {instanceID: 4248}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -146,7 +146,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3424}
     - Class: 114
-      Script: {instanceID: 3926}
+      Script: {instanceID: 3928}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -207,13 +207,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3424}
     - Class: 114
-      Script: {instanceID: 4454}
+      Script: {instanceID: 3756}
     - Class: 114
-      Script: {instanceID: 4572}
+      Script: {instanceID: 4456}
     - Class: 114
-      Script: {instanceID: 4906}
+      Script: {instanceID: 4574}
     - Class: 114
-      Script: {instanceID: 29158}
+      Script: {instanceID: 4908}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -266,6 +266,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1748}
     - Class: 114
+      Script: {instanceID: 1968}
+    - Class: 114
       Script: {instanceID: 2000}
     - Class: 114
       Script: {instanceID: 2074}
@@ -290,9 +292,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3438}
     - Class: 114
-      Script: {instanceID: 4204}
+      Script: {instanceID: 3928}
     - Class: 114
-      Script: {instanceID: 5216}
+      Script: {instanceID: 4206}
+    - Class: 114
+      Script: {instanceID: 5218}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -727,6 +731,12 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TitleMenuLogic
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
     className: PlayerQuitHandler
@@ -1096,12 +1106,6 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: TMPro.Examples
     className: TMP_TextEventCheck
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: TitleMenuLogic
   platform: 2
   scenePathNames:
   - Assets/Scenes/Menus/TitleMenu.unity
