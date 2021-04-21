@@ -13,6 +13,9 @@ public class TractorBeam : MonoBehaviour
         if (Input.GetButton("Fire1"))
         {
             laserContainer.SetActive(true);
+
+
+
         } else
         {
             laserContainer.SetActive(false);

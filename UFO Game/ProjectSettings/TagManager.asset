@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - safe
+  - Adult
+  - Child
+  - Elderly
   layers:
   - Default
   - TransparentFX
