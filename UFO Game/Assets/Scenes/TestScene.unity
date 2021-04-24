@@ -6605,7 +6605,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: dialogue
+  m_Text: minor change
 --- !u!222 &2089035574
 CanvasRenderer:
   m_ObjectHideFlags: 0
