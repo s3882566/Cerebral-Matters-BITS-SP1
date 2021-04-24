@@ -1838,7 +1838,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 13.399239
+  orthographic size: 7.075271
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -2004,7 +2004,7 @@ RectTransform:
   m_GameObject: {fileID: 601157408}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.4747461, y: 1.4747461, z: 1.4747461}
+  m_LocalScale: {x: 1.7, y: 1.7, z: 1.4747461}
   m_Children:
   - {fileID: 904870127}
   - {fileID: 2089035572}
@@ -2014,7 +2014,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 180, y: -783}
+  m_AnchoredPosition: {x: 0, y: -720}
   m_SizeDelta: {x: 767.52, y: 331.733}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &601157410
@@ -2065,7 +2065,7 @@ Animator:
   m_GameObject: {fileID: 601157408}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 93d4519db691b4fe48401aa5d34373eb, type: 2}
+  m_Controller: {fileID: 9100000, guid: cc6062bed20544e8a87aedd8d6ffab30, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
