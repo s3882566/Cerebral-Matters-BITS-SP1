@@ -7,9 +7,7 @@ public class DialogueManager : MonoBehaviour
 {
     public Text nameText;
     public Text dialogueText;
-
     public Animator animator;
-
     private Queue<string> sentences;
 
     void Start()
@@ -19,12 +17,9 @@ public class DialogueManager : MonoBehaviour
 
     public void StartDialogue(Dialogue dialogue)
     {
+
         animator.SetBool("IsOpen", true);
-
-        // Debug.Log("Receiving comms from " + dialogue.name);
-
         nameText.text = dialogue.name;
-
         sentences.Clear();
 
         // loop through sentences in dialogue and add them to queue
@@ -32,8 +27,10 @@ public class DialogueManager : MonoBehaviour
         {
             sentences.Enqueue(sentence);
         }
+
         DisplayNextSentence();
     }
+
     public void DisplayNextSentence()
     {
         if (sentences.Count == 0)
@@ -45,11 +42,9 @@ public class DialogueManager : MonoBehaviour
         string sentence = sentences.Dequeue();
         StopAllCoroutines();
         StartCoroutine(TypeSentence(sentence));
-
-        // Debug.Log(sentence);
     }
 
-    IEnumerator TypeSentence (string sentence)
+    IEnumerator TypeSentence(string sentence)
     {
         dialogueText.text = "";
         foreach (char letter in sentence.ToCharArray())
@@ -58,9 +53,9 @@ public class DialogueManager : MonoBehaviour
             yield return null;
         }
     }
+
     void EndDialogue()
     {
         animator.SetBool("IsOpen", false);
-        Debug.Log("End of communication");
     }
 }
