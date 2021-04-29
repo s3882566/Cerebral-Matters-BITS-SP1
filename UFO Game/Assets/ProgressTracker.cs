@@ -18,7 +18,7 @@ public class ProgressTracker : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (progress == pointsToUnlockPortal)
+        if (progress >= pointsToUnlockPortal)
         {
             portal.GetComponent<portalScript>().portalUnlocked = true;
         } else
