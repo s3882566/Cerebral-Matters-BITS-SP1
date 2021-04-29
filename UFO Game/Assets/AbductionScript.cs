@@ -5,6 +5,7 @@ using UnityEngine;
 public class AbductionScript : MonoBehaviour
 {
     public GameObject progressTracker;
+    public GameObject HumanAbductionEffects;
 
     // Start is called before the first frame update
     void Start()
@@ -23,7 +24,9 @@ public class AbductionScript : MonoBehaviour
         {
             Debug.Log("working");
             progressTracker.GetComponent<ProgressTracker>().updateProgress("Adult");
+            Instantiate(HumanAbductionEffects);
             Destroy(collision.gameObject);
+
         } else if (collision.gameObject.CompareTag("Child") || collision.gameObject.CompareTag("Elderly"))
         {
             Debug.Log("penalty");

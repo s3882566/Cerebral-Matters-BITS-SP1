@@ -7,6 +7,8 @@ public class ProgressTracker : MonoBehaviour
     public int progress = 0;
     public int pointsToUnlockPortal = 10;
 
+    public GameObject portal;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -16,23 +18,26 @@ public class ProgressTracker : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (progress == pointsToUnlockPortal)
+        {
+            portal.GetComponent<portalScript>().portalUnlocked = true;
+        } else
+        {
+            portal.GetComponent<portalScript>().portalUnlocked = false;
+        }
     }
 
     public void updateProgress(string humanType)
     {
         if (humanType.Equals("Adult"))
         {
-            progress++;
+            progress += 2;
             Debug.Log(progress);
-            if (progress == pointsToUnlockPortal)
-            {
-                //unlock portal
-            }
+
         } else if (humanType.Equals("Penalty")){
             if (progress > 0)
             {
-                progress--;
+                progress -= 2;
             }
         }
     }
