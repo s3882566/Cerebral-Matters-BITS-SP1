@@ -1,0 +1,531 @@
+fileFormatVersion: 2
+guid: 0b702fbcb76916b4a93487617fded0b9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2967543385156423862
+    second: PURP_UFO_Sprite_0
+  - first:
+      213: 720606556665327223
+    second: PURP_UFO_Sprite_1
+  - first:
+      213: -4635670197741494897
+    second: PURP_UFO_Sprite_2
+  - first:
+      213: -7478417102508780239
+    second: PURP_UFO_Sprite_3
+  - first:
+      213: -447339958190556215
+    second: PURP_UFO_Sprite_4
+  - first:
+      213: 7380996982221386507
+    second: PURP_UFO_Sprite_5
+  - first:
+      213: 4686357792570001565
+    second: PURP_UFO_Sprite_6
+  - first:
+      213: 1243533482378114698
+    second: PURP_UFO_Sprite_7
+  - first:
+      213: -8481521892100963645
+    second: PURP_UFO_Sprite_8
+  - first:
+      213: -1196541241946599708
+    second: PURP_UFO_Sprite_9
+  - first:
+      213: 553791685265284
+    second: PURP_UFO_Sprite_10
+  - first:
+      213: -2407376422409358703
+    second: PURP_UFO_Sprite_11
+  - first:
+      213: -2962538813928927781
+    second: PURP_UFO_Sprite_12
+  - first:
+      213: 4878212570555430256
+    second: PURP_UFO_Sprite_13
+  - first:
+      213: 7687706761111080951
+    second: PURP_UFO_Sprite_14
+  - first:
+      213: -8388131767549866920
+    second: PURP_UFO_Sprite_15
+  - first:
+      213: -2093067486631837635
+    second: PURP_UFO_Sprite_16
+  - first:
+      213: -4625350892748057702
+    second: PURP_UFO_Sprite_17
+  - first:
+      213: 5223518229104904083
+    second: PURP_UFO_Sprite_18
+  - first:
+      213: -881933810892374428
+    second: PURP_UFO_Sprite_19
+  - first:
+      213: 8865411896320215343
+    second: PURP_UFO_Sprite_20
+  - first:
+      213: -5235613698417584777
+    second: PURP_UFO_Sprite_21
+  - first:
+      213: -8514662535654250801
+    second: PURP_UFO_Sprite_22
+  - first:
+      213: 6579737073036976196
+    second: PURP_UFO_Sprite_23
+  - first:
+      213: 6977284675731722472
+    second: PURP_UFO_Sprite_24
+  - first:
+      213: -2729742549137504393
+    second: PURP_UFO_Sprite_25
+  - first:
+      213: 4031852753392580842
+    second: PURP_UFO_Sprite_26
+  - first:
+      213: 6984971672234727152
+    second: PURP_UFO_Sprite_27
+  - first:
+      213: 4392403221854569672
+    second: PURP_UFO_Sprite_28
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PURP_UFO_Sprite_1
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 761
+        width: 270
+        height: 180
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77eaad868db100a00800000000000000
+      internalID: 720606556665327223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PURP_UFO_Sprite_2
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 759
+        width: 270
+        height: 180
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8dd0c7148acaafb0800000000000000
+      internalID: -4635670197741494897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PURP_UFO_Sprite_3
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 760
+        width: 270
+        height: 180
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13512c28443573890800000000000000
+      internalID: -7478417102508780239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PURP_UFO_Sprite_4
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 759
+        width: 270
+        height: 180
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cbb63a9daabac9f0800000000000000
+      internalID: -447339958190556215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PURP_UFO_Sprite_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 570
+        width: 270
+        height: 180
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b03398d26a19e6660800000000000000
+      internalID: 7380996982221386507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PURP_UFO_Sprite_6
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 569
+        width: 270
+        height: 180
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d98c48c3599490140800000000000000
+      internalID: 4686357792570001565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PURP_UFO_Sprite_7
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 569
+        width: 270
+        height: 180
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a86b37b1d1be14110800000000000000
+      internalID: 1243533482378114698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PURP_UFO_Sprite_8
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 570
+        width: 270
+        height: 180
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c28f92b6c49b4a80800000000000000
+      internalID: -8481521892100963645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PURP_UFO_Sprite_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 379
+        width: 270
+        height: 180
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ee0baa7418056fe0800000000000000
+      internalID: -1196541241946599708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PURP_UFO_Sprite_10
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 378
+        width: 270
+        height: 180
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4870eacaba7f10000800000000000000
+      internalID: 553791685265284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PURP_UFO_Sprite_11
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 378
+        width: 270
+        height: 180
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 192b3ad06e7479ed0800000000000000
+      internalID: -2407376422409358703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PURP_UFO_Sprite_12
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 376
+        width: 270
+        height: 180
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdd857a15a2f2e6d0800000000000000
+      internalID: -2962538813928927781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PURP_UFO_Sprite_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 187
+        width: 270
+        height: 180
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0753dceac74e2b340800000000000000
+      internalID: 4878212570555430256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PURP_UFO_Sprite_14
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 187
+        width: 270
+        height: 180
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ff0569619830ba60800000000000000
+      internalID: 7687706761111080951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PURP_UFO_Sprite_15
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 187
+        width: 270
+        height: 180
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85c4502899e579b80800000000000000
+      internalID: -8388131767549866920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PURP_UFO_Sprite_16
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 187
+        width: 270
+        height: 180
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d30c360e53ee3f2e0800000000000000
+      internalID: -2093067486631837635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -33,6 +33,8 @@ public class PlayerMovement : MonoBehaviour
             movePlayer(max_speed);
         }
 
+        
+
     }
 
     void movePlayer(float movementSpeed)
