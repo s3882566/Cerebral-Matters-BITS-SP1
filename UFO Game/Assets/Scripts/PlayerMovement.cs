@@ -14,6 +14,7 @@ public class PlayerMovement : MonoBehaviour
 
     private Rigidbody2D rb;
 
+
     void Start()
     {
         rb = this.gameObject.GetComponent<Rigidbody2D>();
@@ -40,6 +41,7 @@ public class PlayerMovement : MonoBehaviour
         float y_movement = Input.GetAxis("Vertical");
         if (rb.velocity.magnitude < movementSpeed)
         {
+            
             Vector3 movement = new Vector3(x_movement, y_movement);
             rb.AddForce(movement_scalar * movement);
         }
