@@ -28,4 +28,5 @@ public class VolumeSettings : MonoBehaviour
         PlayerPrefs.SetFloat("SFXVol", sFXVolume);
     }
 
+    
 }
