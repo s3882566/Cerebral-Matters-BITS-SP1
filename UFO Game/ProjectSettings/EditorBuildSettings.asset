@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Credits.unity
     guid: b5997f687a1d6c142a3a75ce43d21b5a
+  - enabled: 1
+    path: Assets/Scenes/Menus/SkinSelector.unity
+    guid: b782e06a62c3e42ed90985494cf3c99f
   m_configObjects: {}
