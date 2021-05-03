@@ -181,10 +181,10 @@ TextureImporter:
       name: PURP_UFO_Sprite_1
       rect:
         serializedVersion: 2
-        x: 2
+        x: 33
         y: 761
-        width: 270
-        height: 180
+        width: 212
+        height: 130
       alignment: 2
       pivot: {x: 0.5, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -202,10 +202,10 @@ TextureImporter:
       name: PURP_UFO_Sprite_2
       rect:
         serializedVersion: 2
-        x: 271
-        y: 759
-        width: 270
-        height: 180
+        x: 301
+        y: 761
+        width: 211
+        height: 130
       alignment: 2
       pivot: {x: 0.5, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -223,10 +223,10 @@ TextureImporter:
       name: PURP_UFO_Sprite_3
       rect:
         serializedVersion: 2
-        x: 542
-        y: 760
-        width: 270
-        height: 180
+        x: 568
+        y: 761
+        width: 211
+        height: 130
       alignment: 2
       pivot: {x: 0.5, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -244,10 +244,10 @@ TextureImporter:
       name: PURP_UFO_Sprite_4
       rect:
         serializedVersion: 2
-        x: 810
-        y: 759
-        width: 270
-        height: 180
+        x: 835
+        y: 761
+        width: 212
+        height: 130
       alignment: 2
       pivot: {x: 0.5, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -265,10 +265,10 @@ TextureImporter:
       name: PURP_UFO_Sprite_5
       rect:
         serializedVersion: 2
-        x: 0
+        x: 33
         y: 570
-        width: 270
-        height: 180
+        width: 212
+        height: 130
       alignment: 2
       pivot: {x: 0.5, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -286,10 +286,10 @@ TextureImporter:
       name: PURP_UFO_Sprite_6
       rect:
         serializedVersion: 2
-        x: 271
-        y: 569
-        width: 270
-        height: 180
+        x: 301
+        y: 570
+        width: 211
+        height: 130
       alignment: 2
       pivot: {x: 0.5, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -307,10 +307,10 @@ TextureImporter:
       name: PURP_UFO_Sprite_7
       rect:
         serializedVersion: 2
-        x: 541
-        y: 569
-        width: 270
-        height: 180
+        x: 568
+        y: 570
+        width: 211
+        height: 130
       alignment: 2
       pivot: {x: 0.5, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -328,10 +328,10 @@ TextureImporter:
       name: PURP_UFO_Sprite_8
       rect:
         serializedVersion: 2
-        x: 810
+        x: 835
         y: 570
-        width: 270
-        height: 180
+        width: 212
+        height: 130
       alignment: 2
       pivot: {x: 0.5, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -349,10 +349,10 @@ TextureImporter:
       name: PURP_UFO_Sprite_9
       rect:
         serializedVersion: 2
-        x: 0
-        y: 379
-        width: 270
-        height: 180
+        x: 33
+        y: 380
+        width: 212
+        height: 130
       alignment: 2
       pivot: {x: 0.5, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -370,10 +370,10 @@ TextureImporter:
       name: PURP_UFO_Sprite_10
       rect:
         serializedVersion: 2
-        x: 269
-        y: 378
-        width: 270
-        height: 180
+        x: 301
+        y: 380
+        width: 211
+        height: 130
       alignment: 2
       pivot: {x: 0.5, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -391,10 +391,10 @@ TextureImporter:
       name: PURP_UFO_Sprite_11
       rect:
         serializedVersion: 2
-        x: 540
-        y: 378
-        width: 270
-        height: 180
+        x: 568
+        y: 380
+        width: 211
+        height: 130
       alignment: 2
       pivot: {x: 0.5, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -412,10 +412,10 @@ TextureImporter:
       name: PURP_UFO_Sprite_12
       rect:
         serializedVersion: 2
-        x: 810
-        y: 376
-        width: 270
-        height: 180
+        x: 835
+        y: 380
+        width: 212
+        height: 130
       alignment: 2
       pivot: {x: 0.5, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -433,10 +433,10 @@ TextureImporter:
       name: PURP_UFO_Sprite_13
       rect:
         serializedVersion: 2
-        x: 0
-        y: 187
-        width: 270
-        height: 180
+        x: 33
+        y: 189
+        width: 212
+        height: 130
       alignment: 2
       pivot: {x: 0.5, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -454,10 +454,10 @@ TextureImporter:
       name: PURP_UFO_Sprite_14
       rect:
         serializedVersion: 2
-        x: 270
-        y: 187
-        width: 270
-        height: 180
+        x: 301
+        y: 189
+        width: 211
+        height: 130
       alignment: 2
       pivot: {x: 0.5, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -475,10 +475,10 @@ TextureImporter:
       name: PURP_UFO_Sprite_15
       rect:
         serializedVersion: 2
-        x: 540
-        y: 187
-        width: 270
-        height: 180
+        x: 568
+        y: 189
+        width: 211
+        height: 130
       alignment: 2
       pivot: {x: 0.5, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -496,10 +496,10 @@ TextureImporter:
       name: PURP_UFO_Sprite_16
       rect:
         serializedVersion: 2
-        x: 810
-        y: 187
-        width: 270
-        height: 180
+        x: 835
+        y: 189
+        width: 212
+        height: 130
       alignment: 2
       pivot: {x: 0.5, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
