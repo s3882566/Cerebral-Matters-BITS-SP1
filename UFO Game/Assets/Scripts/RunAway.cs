@@ -12,6 +12,8 @@ public class RunAway : MonoBehaviour
     public Vector3 Spawn;
     public float runRadius;
     public float moveSpeed;
+    public float timer;
+    public GameObject obj;
 
     // Start is called before the first frame update
     void Start()
@@ -46,4 +48,21 @@ public class RunAway : MonoBehaviour
             rb.MovePosition(moveBack);
         }
     }
+
+    void OnTriggerEnter2D(Collider2D col)
+    {
+        if (col.gameObject.tag == "safe")
+        {
+            Destroy(gameObject);
+        }
+    }
+    //
+    //    void waiting()
+    //  {
+    // timer = timer + Time.deltaTime;
+    //    if (timer > 0.25f)
+    //   {
+    // Instantiate(obj, transform.position, transform.rotation);
+    //}
+    //}
 }

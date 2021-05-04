@@ -26,12 +26,21 @@ public class PlayerHealth : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D collision)
     {
-        Health--;
-
-        if(Health < 1)
+        if (collision.gameObject.tag == "Invisiwall")
         {
-            isDead = true;
-            Debug.Log("Dead");
+            //If the GameObject has the same tag as specified, output this message in the console
+            Debug.Log("You hit an invisible wall");
         }
+
+        else
+        {
+            Health--;
+            if (Health < 1)
+            {
+                isDead = true;
+                Debug.Log("Dead");
+            }
+        }
+        
     }
 }

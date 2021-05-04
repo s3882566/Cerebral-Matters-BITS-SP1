@@ -9,6 +9,7 @@ TagManager:
   - Child
   - Elderly
   - FemAdult
+  - Invisiwall
   layers:
   - Default
   - TransparentFX
