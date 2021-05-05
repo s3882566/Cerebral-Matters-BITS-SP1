@@ -7,6 +7,7 @@ public class PlayerHealth : MonoBehaviour
     private int Health;
     private bool isDead;
     public GameObject Explosion;
+    public GameOverScreen GameOverScreen;
 
     // Start is called before the first frame update
     void Start()
@@ -39,6 +40,7 @@ public class PlayerHealth : MonoBehaviour
             {
                 isDead = true;
                 Debug.Log("Dead");
+                GameOverScreen.EndGame("Exploded");
             }
         }
         

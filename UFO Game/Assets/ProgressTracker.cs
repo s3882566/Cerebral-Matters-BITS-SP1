@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class ProgressTracker : MonoBehaviour
 {
@@ -8,6 +9,10 @@ public class ProgressTracker : MonoBehaviour
     public int pointsToUnlockPortal = 10;
 
     public GameObject portal;
+
+    public Image progressBar;
+
+    public GameObject portalOpenedText;
 
     // Start is called before the first frame update
     void Start()
@@ -21,6 +26,7 @@ public class ProgressTracker : MonoBehaviour
         if (progress >= pointsToUnlockPortal)
         {
             portal.GetComponent<portalScript>().portalUnlocked = true;
+            portalOpenedText.SetActive(true);
         } else
         {
             portal.GetComponent<portalScript>().portalUnlocked = false;
@@ -33,6 +39,7 @@ public class ProgressTracker : MonoBehaviour
         {
             progress += 2;
             Debug.Log(progress);
+            progressBar.rectTransform.sizeDelta = new Vector2(progress * 10, 100);
 
         } else if (humanType.Equals("Penalty")){
             if (progress > 0)
