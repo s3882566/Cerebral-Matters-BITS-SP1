@@ -26,13 +26,12 @@ public class GameOverScreen : MonoBehaviour
 
     public void Setup(string loseCondition)
     {
-        int randomNum = Random.Range(0,4);
         if (loseCondition.Equals("TimeOver"))
         {
-            gameOverText.text = '"' + timeOverText[randomNum] +'"';
+            gameOverText.text = '"' + timeOverText[Random.Range(0, timeOverText.Length)] +'"';
         } else if (loseCondition.Equals("Exploded"))
         {
-            gameOverText.text = '"' + explodedText[randomNum] + '"';
+            gameOverText.text = '"' + explodedText[Random.Range(0, explodedText.Length)] + '"';
         }
         gameObject.SetActive(true);
     }

@@ -7,7 +7,7 @@ public class MainMenu : MonoBehaviour
     public void LaunchGame()
     {
         // This loads a specific scene
-        SceneManager.LoadScene("TestScene");
+        SceneManager.LoadScene("Level_1");
 
         // This loads the next scene in the build queue
         // SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
@@ -32,5 +32,10 @@ public class MainMenu : MonoBehaviour
     public void LaunchSkinSelector()
     {
         SceneManager.LoadScene("SkinSelector");
+    }
+
+    public void LaunchTutorial()
+    {
+        SceneManager.LoadScene("Tutorial");
     }
 }

@@ -6,6 +6,7 @@ public class TractorBeam : MonoBehaviour
 {
 
     public GameObject laserContainer;
+    public Animator animator;
 
     // Update is called once per frame
     void FixedUpdate()
@@ -13,6 +14,7 @@ public class TractorBeam : MonoBehaviour
         if (Input.GetButton("Fire1"))
         {
             laserContainer.SetActive(true);
+            animator.SetTrigger("ActivateBeam");
 
 
 

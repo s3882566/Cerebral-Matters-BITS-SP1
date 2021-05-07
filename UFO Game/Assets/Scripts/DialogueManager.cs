@@ -6,7 +6,6 @@ using UnityEngine.Audio;
 
 public class DialogueManager : MonoBehaviour
 {
-    public Text nameText;
     public Text dialogueText;
     public Animator animator;
     private Queue<string> sentences;
@@ -21,7 +20,6 @@ public class DialogueManager : MonoBehaviour
     {
 
         animator.SetBool("IsOpen", true);
-        nameText.text = dialogue.name;
         sentences.Clear();
 
         // loop through sentences in dialogue and add them to queue

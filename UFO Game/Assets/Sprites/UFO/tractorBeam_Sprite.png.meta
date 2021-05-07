@@ -1,0 +1,996 @@
+fileFormatVersion: 2
+guid: eab4c143ad5eae741a0c9b5eb545c4db
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -79112560026810438
+    second: tractorBeam_Sprite_0
+  - first:
+      213: 4411701711383451340
+    second: tractorBeam_Sprite_1
+  - first:
+      213: -1224131718256397637
+    second: tractorBeam_Sprite_2
+  - first:
+      213: 8045354524412804230
+    second: tractorBeam_Sprite_3
+  - first:
+      213: 4607962875411212180
+    second: tractorBeam_Sprite_4
+  - first:
+      213: -3719448528699250193
+    second: tractorBeam_Sprite_5
+  - first:
+      213: -4214016081719989245
+    second: tractorBeam_Sprite_6
+  - first:
+      213: 3325341059546717261
+    second: tractorBeam_Sprite_7
+  - first:
+      213: 6417847570714215300
+    second: tractorBeam_Sprite_8
+  - first:
+      213: -6190538970488435162
+    second: tractorBeam_Sprite_9
+  - first:
+      213: -1631550182754551670
+    second: tractorBeam_Sprite_10
+  - first:
+      213: -5561853579655660621
+    second: tractorBeam_Sprite_11
+  - first:
+      213: 8545778706703820118
+    second: tractorBeam_Sprite_12
+  - first:
+      213: -7492182093164339257
+    second: tractorBeam_Sprite_13
+  - first:
+      213: -6437160222294964712
+    second: tractorBeam_Sprite_14
+  - first:
+      213: 7297260190891161842
+    second: tractorBeam_Sprite_15
+  - first:
+      213: 2591562984927868164
+    second: tractorBeam_Sprite_16
+  - first:
+      213: -5539391975343041759
+    second: tractorBeam_Sprite_17
+  - first:
+      213: -4718272240417454150
+    second: tractorBeam_Sprite_18
+  - first:
+      213: 181279117507350826
+    second: tractorBeam_Sprite_19
+  - first:
+      213: -8901176087061641047
+    second: tractorBeam_Sprite_20
+  - first:
+      213: 6577590647165622614
+    second: tractorBeam_Sprite_21
+  - first:
+      213: -2098139597253712113
+    second: tractorBeam_Sprite_22
+  - first:
+      213: 9190207245121341861
+    second: tractorBeam_Sprite_23
+  - first:
+      213: 1801737149619312644
+    second: tractorBeam_Sprite_24
+  - first:
+      213: 3512853284734567535
+    second: tractorBeam_Sprite_25
+  - first:
+      213: 291683656295635840
+    second: tractorBeam_Sprite_26
+  - first:
+      213: -4103469026320249623
+    second: tractorBeam_Sprite_27
+  - first:
+      213: -1012469837357902476
+    second: tractorBeam_Sprite_28
+  - first:
+      213: -4589957636660205149
+    second: tractorBeam_Sprite_29
+  - first:
+      213: 1634037949605634701
+    second: tractorBeam_Sprite_30
+  - first:
+      213: -5487837270066118241
+    second: tractorBeam_Sprite_31
+  - first:
+      213: -1835352302631279155
+    second: tractorBeam_Sprite_32
+  - first:
+      213: 8871992292083709509
+    second: tractorBeam_Sprite_33
+  - first:
+      213: 1614970027981972019
+    second: tractorBeam_Sprite_34
+  - first:
+      213: 7305742400091517478
+    second: tractorBeam_Sprite_35
+  - first:
+      213: -3366003233618147225
+    second: tractorBeam_Sprite_36
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: tractorBeam_Sprite_0
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 895
+        width: 126
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab7845abb8fe6eef0800000000000000
+      internalID: -79112560026810438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tractorBeam_Sprite_1
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 903
+        width: 126
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc65ef11553893d30800000000000000
+      internalID: 4411701711383451340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tractorBeam_Sprite_2
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 911
+        width: 126
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb2f90f10b2030fe0800000000000000
+      internalID: -1224131718256397637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tractorBeam_Sprite_3
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 918
+        width: 126
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68cf4b75057d6af60800000000000000
+      internalID: 8045354524412804230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tractorBeam_Sprite_4
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 926
+        width: 126
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 497a21732d5c2ff30800000000000000
+      internalID: 4607962875411212180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tractorBeam_Sprite_5
+      rect:
+        serializedVersion: 2
+        x: 987
+        y: 934
+        width: 126
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe92886054dd16cc0800000000000000
+      internalID: -3719448528699250193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tractorBeam_Sprite_6
+      rect:
+        serializedVersion: 2
+        x: 1141
+        y: 941
+        width: 126
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30ceb4353bec485c0800000000000000
+      internalID: -4214016081719989245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tractorBeam_Sprite_7
+      rect:
+        serializedVersion: 2
+        x: 1295
+        y: 949
+        width: 125
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4c9d43431cf52e20800000000000000
+      internalID: 3325341059546717261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tractorBeam_Sprite_8
+      rect:
+        serializedVersion: 2
+        x: 1448
+        y: 957
+        width: 126
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4834603cc56c01950800000000000000
+      internalID: 6417847570714215300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tractorBeam_Sprite_9
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 662
+        width: 127
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62e03dfea99c61aa0800000000000000
+      internalID: -6190538970488435162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tractorBeam_Sprite_10
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 669
+        width: 126
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a88f0bbc0c19b59e0800000000000000
+      internalID: -1631550182754551670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tractorBeam_Sprite_11
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 677
+        width: 126
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bbb3e323a350d2b0800000000000000
+      internalID: -5561853579655660621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tractorBeam_Sprite_12
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 685
+        width: 127
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 655ad2ec474b89670800000000000000
+      internalID: 8545778706703820118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tractorBeam_Sprite_13
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 693
+        width: 126
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cf9560e41c660890800000000000000
+      internalID: -7492182093164339257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tractorBeam_Sprite_14
+      rect:
+        serializedVersion: 2
+        x: 987
+        y: 700
+        width: 126
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81685d322ec9aa6a0800000000000000
+      internalID: -6437160222294964712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tractorBeam_Sprite_15
+      rect:
+        serializedVersion: 2
+        x: 1141
+        y: 708
+        width: 126
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f8baa72b73154560800000000000000
+      internalID: 7297260190891161842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tractorBeam_Sprite_16
+      rect:
+        serializedVersion: 2
+        x: 1295
+        y: 716
+        width: 126
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4053da9ddc417f320800000000000000
+      internalID: 2591562984927868164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tractorBeam_Sprite_17
+      rect:
+        serializedVersion: 2
+        x: 1448
+        y: 723
+        width: 126
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 123570ee8502023b0800000000000000
+      internalID: -5539391975343041759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tractorBeam_Sprite_18
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 387
+        width: 126
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab7c4545564558eb0800000000000000
+      internalID: -4718272240417454150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tractorBeam_Sprite_19
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 395
+        width: 126
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a21d83c9568048200800000000000000
+      internalID: 181279117507350826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tractorBeam_Sprite_20
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 403
+        width: 126
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a84d7f528ba87480800000000000000
+      internalID: -8901176087061641047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tractorBeam_Sprite_21
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 410
+        width: 127
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6591d3218db484b50800000000000000
+      internalID: 6577590647165622614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tractorBeam_Sprite_22
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 418
+        width: 126
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f07e2881729e1e2e0800000000000000
+      internalID: -2098139597253712113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tractorBeam_Sprite_23
+      rect:
+        serializedVersion: 2
+        x: 987
+        y: 426
+        width: 126
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a9cda13ccc2a8f70800000000000000
+      internalID: 9190207245121341861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tractorBeam_Sprite_24
+      rect:
+        serializedVersion: 2
+        x: 1141
+        y: 433
+        width: 126
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4081fad346e010910800000000000000
+      internalID: 1801737149619312644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tractorBeam_Sprite_25
+      rect:
+        serializedVersion: 2
+        x: 1294
+        y: 441
+        width: 127
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f640ba8537920c030800000000000000
+      internalID: 3512853284734567535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tractorBeam_Sprite_26
+      rect:
+        serializedVersion: 2
+        x: 1448
+        y: 449
+        width: 126
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08bd9407db44c0400800000000000000
+      internalID: 291683656295635840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tractorBeam_Sprite_27
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 93
+        width: 126
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ec0d5369ac8d07c0800000000000000
+      internalID: -4103469026320249623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tractorBeam_Sprite_28
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 88
+        width: 126
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4751c761c0cf2f1f0800000000000000
+      internalID: -1012469837357902476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tractorBeam_Sprite_29
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 83
+        width: 127
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a9e6cc19d13d40c0800000000000000
+      internalID: -4589957636660205149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tractorBeam_Sprite_30
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 78
+        width: 127
+        height: 283
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8260cf8bd44da610800000000000000
+      internalID: 1634037949605634701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tractorBeam_Sprite_31
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 73
+        width: 127
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f914f84241947d3b0800000000000000
+      internalID: -5487837270066118241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tractorBeam_Sprite_32
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 68
+        width: 127
+        height: 293
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc5a7fb0ec48786e0800000000000000
+      internalID: -1835352302631279155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tractorBeam_Sprite_33
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 63
+        width: 127
+        height: 298
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54637abdbf5af1b70800000000000000
+      internalID: 8871992292083709509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tractorBeam_Sprite_34
+      rect:
+        serializedVersion: 2
+        x: 1269
+        y: 58
+        width: 127
+        height: 303
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 332a4c81fa6896610800000000000000
+      internalID: 1614970027981972019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tractorBeam_Sprite_35
+      rect:
+        serializedVersion: 2
+        x: 1425
+        y: 53
+        width: 126
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 622f6f16106336560800000000000000
+      internalID: 7305742400091517478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tractorBeam_Sprite_36
+      rect:
+        serializedVersion: 2
+        x: 1575
+        y: 48
+        width: 126
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 768cf5394ed8941d0800000000000000
+      internalID: -3366003233618147225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
