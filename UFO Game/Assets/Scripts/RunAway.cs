@@ -12,8 +12,7 @@ public class RunAway : MonoBehaviour
     public Vector3 Spawn;
     public float runRadius;
     public float moveSpeed;
-    public float timer;
-    public GameObject obj;
+
 
     // Start is called before the first frame update
     void Start()
@@ -42,7 +41,9 @@ public class RunAway : MonoBehaviour
             temp.y = -8.08f;
             rb.MovePosition(temp);
 
-        } else if (Vector3.Distance(ufo.position, transform.position) >= runRadius) {
+        }
+        else if (Vector3.Distance(ufo.position, transform.position) >= runRadius)
+        {
             Vector3 moveBack = Vector3.MoveTowards(transform.position, Spawn, moveSpeed * Time.deltaTime);
 
             rb.MovePosition(moveBack);
@@ -53,16 +54,8 @@ public class RunAway : MonoBehaviour
     {
         if (col.gameObject.tag == "safe")
         {
-            Destroy(gameObject);
+
         }
     }
-    //
-    //    void waiting()
-    //  {
-    // timer = timer + Time.deltaTime;
-    //    if (timer > 0.25f)
-    //   {
-    // Instantiate(obj, transform.position, transform.rotation);
-    //}
-    //}
 }
+
