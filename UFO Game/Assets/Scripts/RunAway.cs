@@ -12,6 +12,7 @@ public class RunAway : MonoBehaviour
     public Vector3 Spawn;
     public float runRadius;
     public float moveSpeed;
+    public Animator animator;
 
 
     // Start is called before the first frame update
@@ -41,6 +42,7 @@ public class RunAway : MonoBehaviour
             temp.y = -8.08f;
             rb.MovePosition(temp);
 
+            animator.SetFloat("Speed", Mathf.Abs(moveSpeed));
         }
         else if (Vector3.Distance(ufo.position, transform.position) >= runRadius)
         {
@@ -58,4 +60,3 @@ public class RunAway : MonoBehaviour
         }
     }
 }
-
