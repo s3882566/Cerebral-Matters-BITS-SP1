@@ -328,7 +328,7 @@ GameObject:
   - component: {fileID: 66851153}
   m_Layer: 0
   m_Name: childFemale_Sprite_10 (2)
-  m_TagString: Untagged
+  m_TagString: Child
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -689,7 +689,7 @@ GameObject:
   - component: {fileID: 105854579}
   m_Layer: 0
   m_Name: elderlyMale_Sprite_5 (5)
-  m_TagString: Adult
+  m_TagString: Elderly
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -875,7 +875,7 @@ GameObject:
   - component: {fileID: 108775149}
   m_Layer: 0
   m_Name: elderlyMale_Sprite_5 (3)
-  m_TagString: Adult
+  m_TagString: Elderly
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1619,7 +1619,7 @@ GameObject:
   - component: {fileID: 168396657}
   m_Layer: 0
   m_Name: elderlyMale_Sprite_5 (2)
-  m_TagString: Adult
+  m_TagString: Elderly
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1991,7 +1991,7 @@ GameObject:
   - component: {fileID: 225649352}
   m_Layer: 0
   m_Name: childFemale_Sprite_10 (3)
-  m_TagString: Untagged
+  m_TagString: Child
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2738,7 +2738,7 @@ GameObject:
   - component: {fileID: 254695286}
   m_Layer: 0
   m_Name: elderlyMale_Sprite_5 (7)
-  m_TagString: Adult
+  m_TagString: Elderly
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3110,7 +3110,7 @@ GameObject:
   - component: {fileID: 317169019}
   m_Layer: 0
   m_Name: childFemale_Sprite_10 (4)
-  m_TagString: Untagged
+  m_TagString: Child
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3598,7 +3598,7 @@ GameObject:
   - component: {fileID: 415848536}
   m_Layer: 0
   m_Name: elderlyMale_Sprite_5 (1)
-  m_TagString: Adult
+  m_TagString: Elderly
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4580,7 +4580,7 @@ GameObject:
   - component: {fileID: 614809928}
   m_Layer: 0
   m_Name: childFemale_Sprite_10 (1)
-  m_TagString: Untagged
+  m_TagString: Child
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4766,7 +4766,7 @@ GameObject:
   - component: {fileID: 644694851}
   m_Layer: 0
   m_Name: elderlyMale_Sprite_5 (4)
-  m_TagString: Adult
+  m_TagString: Elderly
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4952,7 +4952,7 @@ GameObject:
   - component: {fileID: 646255691}
   m_Layer: 0
   m_Name: elderlyMale_Sprite_5 (9)
-  m_TagString: Adult
+  m_TagString: Elderly
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5401,7 +5401,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Human Juice Meter
+  m_Text: Cerebral Juice Meter
 --- !u!222 &701611299
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5608,6 +5608,7 @@ MonoBehaviour:
   clock: 0
   player: {fileID: 137923715}
   GameOverScreen: {fileID: 2128430138}
+  portalOpenedText: {fileID: 1019269187}
 --- !u!1 &734709093
 GameObject:
   m_ObjectHideFlags: 0
@@ -8305,7 +8306,7 @@ GameObject:
   - component: {fileID: 1042160184}
   m_Layer: 0
   m_Name: elderlyMale_Sprite_5 (10)
-  m_TagString: Adult
+  m_TagString: Elderly
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8574,7 +8575,7 @@ GameObject:
   - component: {fileID: 1062032057}
   m_Layer: 0
   m_Name: childFemale_Sprite_10
-  m_TagString: Untagged
+  m_TagString: Child
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10872,7 +10873,7 @@ GameObject:
   - component: {fileID: 1293734746}
   m_Layer: 0
   m_Name: elderlyMale_Sprite_5 (6)
-  m_TagString: Adult
+  m_TagString: Elderly
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11140,7 +11141,7 @@ GameObject:
   - component: {fileID: 1346191539}
   m_Layer: 0
   m_Name: elderlyMale_Sprite_5 (8)
-  m_TagString: Adult
+  m_TagString: Elderly
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12779,7 +12780,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0.74053025, b: 1, a: 1}
+  m_Color: {r: 1, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1

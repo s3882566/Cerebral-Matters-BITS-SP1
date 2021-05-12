@@ -13,6 +13,8 @@ public class TimerCountdown : MonoBehaviour
 
     public GameOverScreen GameOverScreen;
 
+    public GameObject portalOpenedText;
+
     void Start()
     {
         UpdateTimer();
@@ -26,6 +28,8 @@ public class TimerCountdown : MonoBehaviour
             StartCoroutine(TimerTake());
         } else if (timeLeft == 0)
         {
+            //disable portal open text if its open
+            portalOpenedText.SetActive(false);
             //end game.
             Debug.Log("working");
             RespawnPlayer();
@@ -52,6 +56,10 @@ public class TimerCountdown : MonoBehaviour
         //disable character controlls.
         player.GetComponent<PlayerMovement>().enabled = false;
         player.GetComponent<TractorBeam>().enabled = false;
+
+        //disable portal open text if its open
+        portalOpenedText.SetActive(false);
+
         //open up a respawn screen.
         GameOverScreen.EndGame("TimeOver");
     }
