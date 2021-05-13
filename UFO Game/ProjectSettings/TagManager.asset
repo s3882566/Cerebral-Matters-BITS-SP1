@@ -10,6 +10,8 @@ TagManager:
   - Elderly
   - FemAdult
   - Invisiwall
+  - Instakill
+  - FemElderly
   layers:
   - Default
   - TransparentFX

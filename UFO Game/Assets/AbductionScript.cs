@@ -9,6 +9,7 @@ public class AbductionScript : MonoBehaviour
     public GameObject ChildHumanAbductionEffects;
     public GameObject ElderlyAbductionEffects;
     public GameObject FemaleHumanAbductionEffects;
+    public GameObject FemElderlyAbductionEffects;
     // Start is called before the first frame update
     void Start()
     {
@@ -46,6 +47,13 @@ public class AbductionScript : MonoBehaviour
             Debug.Log("working");
             progressTracker.GetComponent<ProgressTracker>().updateProgress("Adult");
             Instantiate(FemaleHumanAbductionEffects); 
+            Destroy(collision.gameObject);
+        }
+        else if (collision.gameObject.CompareTag("FemElderly"))
+        {
+            Debug.Log("penalty");
+            progressTracker.GetComponent<ProgressTracker>().updateProgress("Penalty");
+            Instantiate(FemElderlyAbductionEffects);
             Destroy(collision.gameObject);
         }
 

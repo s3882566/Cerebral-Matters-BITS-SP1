@@ -33,6 +33,17 @@ public class PlayerHealth : MonoBehaviour
             Debug.Log("You hit an invisible wall");
         }
 
+        else if (collision.gameObject.tag == "Instakill")
+        {
+            Health = Health - Health;
+            if (Health < 1)
+            {
+                isDead = true;
+                Debug.Log("Dead");
+                GameOverScreen.EndGame("Exploded");
+            }
+        }
+
         else
         {
             Health--;
