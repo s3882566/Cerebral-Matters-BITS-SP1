@@ -10,6 +10,7 @@ public class AbductionScript : MonoBehaviour
     public GameObject ElderlyAbductionEffects;
     public GameObject FemaleHumanAbductionEffects;
     public GameObject FemElderlyAbductionEffects;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -23,38 +24,53 @@ public class AbductionScript : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("Adult"))
+        if (collision.GetComponent<RunAway>().issafe == 1)
         {
-            Debug.Log("working");
-            progressTracker.GetComponent<ProgressTracker>().updateProgress("Adult");
-            Instantiate(HumanAbductionEffects);
-            Destroy(collision.gameObject);
-
-        } else if (collision.gameObject.CompareTag("Child"))
-        {
-            Debug.Log("penalty");
-            progressTracker.GetComponent<ProgressTracker>().updateProgress("Penalty");
-            Instantiate(ChildHumanAbductionEffects);
-            Destroy(collision.gameObject);
-        } else if (collision.gameObject.CompareTag("Elderly"))
-        {
-            Debug.Log("penalty");
-            progressTracker.GetComponent<ProgressTracker>().updateProgress("Penalty");
-            Instantiate(ElderlyAbductionEffects);
-            Destroy(collision.gameObject);
-        } else if (collision.gameObject.CompareTag("FemAdult"))
-        {
-            Debug.Log("working");
-            progressTracker.GetComponent<ProgressTracker>().updateProgress("Adult");
-            Instantiate(FemaleHumanAbductionEffects); 
-            Destroy(collision.gameObject);
+            Debug.Log("safe is 1");
         }
-        else if (collision.gameObject.CompareTag("FemElderly"))
-        {
-            Debug.Log("penalty");
-            progressTracker.GetComponent<ProgressTracker>().updateProgress("Penalty");
-            Instantiate(FemElderlyAbductionEffects);
-            Destroy(collision.gameObject);
+
+        else 
+        { 
+
+        
+
+            if (collision.gameObject.CompareTag("Adult"))
+            {
+                Debug.Log("working");
+                progressTracker.GetComponent<ProgressTracker>().updateProgress("Adult");
+                Instantiate(HumanAbductionEffects);
+                Destroy(collision.gameObject);
+
+            }
+            else if (collision.gameObject.CompareTag("Child"))
+            {
+                Debug.Log("penalty");
+                progressTracker.GetComponent<ProgressTracker>().updateProgress("Penalty");
+                Instantiate(ChildHumanAbductionEffects);
+                Destroy(collision.gameObject);
+            }
+            else if (collision.gameObject.CompareTag("Elderly"))
+            {
+                Debug.Log("penalty");
+                progressTracker.GetComponent<ProgressTracker>().updateProgress("Penalty");
+                Instantiate(ElderlyAbductionEffects);
+                Destroy(collision.gameObject);
+            }
+            else if (collision.gameObject.CompareTag("FemAdult"))
+            {
+                Debug.Log("working");
+                progressTracker.GetComponent<ProgressTracker>().updateProgress("Adult");
+                Instantiate(FemaleHumanAbductionEffects);
+                Destroy(collision.gameObject);
+            }
+            else if (collision.gameObject.CompareTag("FemElderly"))
+            {
+                Debug.Log("penalty");
+                progressTracker.GetComponent<ProgressTracker>().updateProgress("Penalty");
+                Instantiate(FemElderlyAbductionEffects);
+                Destroy(collision.gameObject);
+            }
+
         }
 
     }

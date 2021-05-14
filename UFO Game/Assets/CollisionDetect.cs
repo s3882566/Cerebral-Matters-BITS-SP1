@@ -25,6 +25,7 @@ public class CollisionDetect : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D collision)
     {
+        if(collision.gameObject.CompareTag("Player"))
         source.clip = audioClips[Random.Range(0, audioClips.Length)];
         source.Play();
     }

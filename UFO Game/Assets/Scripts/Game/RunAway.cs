@@ -14,6 +14,7 @@ public class RunAway : MonoBehaviour
     public float moveSpeed;
     public Animator animator;
 
+    public int issafe;
 
     // Start is called before the first frame update
     void Start()
@@ -22,6 +23,7 @@ public class RunAway : MonoBehaviour
         target = GameObject.FindWithTag("safe").transform;
         ufo = GameObject.FindWithTag("Player").transform;
         Spawn = transform.position;
+        issafe = 0;
     }
 
     // Update is called once per frame
@@ -49,14 +51,18 @@ public class RunAway : MonoBehaviour
             Vector3 moveBack = Vector3.MoveTowards(transform.position, Spawn, moveSpeed * Time.deltaTime);
 
             rb.MovePosition(moveBack);
+            
         }
     }
 
     void OnTriggerEnter2D(Collider2D col)
     {
-        if (col.gameObject.tag == "safe")
+        if (col.gameObject.CompareTag("safe"))
         {
-
+            issafe = 1;
+            Debug.Log("safe");
         }
     }
+
+
 }
