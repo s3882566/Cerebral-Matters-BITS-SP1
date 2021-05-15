@@ -10,9 +10,16 @@ public class portalScript : MonoBehaviour
 
     List<AsyncOperation> scenesToLoad = new List<AsyncOperation>();
 
+    void Update()
+    {
+        if (portalUnlocked is true)
+        {
+            anim.SetBool("portalactive", true);
+        }
+    }
+
     public void UnlockPortal()
     {
-        anim.SetBool("portalactive", true);
         portalUnlocked = true;
     }
 
