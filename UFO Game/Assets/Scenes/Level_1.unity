@@ -11924,7 +11924,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   progress: 0
-  pointsToUnlockPortal: 10
+  pointsToUnlockPortal: 30
   portal: {fileID: 1118309337}
   progressBar: {fileID: 1487197280}
   portalOpenedText: {fileID: 1019269187}

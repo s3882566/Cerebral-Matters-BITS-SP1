@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class ProgressTracker : MonoBehaviour
 {
     public int progress = 0;
-    public int pointsToUnlockPortal = 10;
+    public int pointsToUnlockPortal = 30;
 
     public GameObject portal;
 
@@ -38,5 +38,10 @@ public class ProgressTracker : MonoBehaviour
                 portalOpenedText.SetActive(false);
             }
         }
+    }
+
+    public int getNums()
+    {
+        return progress;
     }
 }

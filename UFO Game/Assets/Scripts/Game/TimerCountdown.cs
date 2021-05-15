@@ -7,6 +7,7 @@ public class TimerCountdown : MonoBehaviour
 {
     public GameObject textDisplay;
     public float timeLeft = 900f;
+
     public bool clock = false;
 
     public GameObject player;
@@ -17,6 +18,7 @@ public class TimerCountdown : MonoBehaviour
 
     void Start()
     {
+        
         UpdateTimer();
     }
 
@@ -63,4 +65,5 @@ public class TimerCountdown : MonoBehaviour
         //open up a respawn screen.
         GameOverScreen.EndGame("TimeOver");
     }
+
 }
