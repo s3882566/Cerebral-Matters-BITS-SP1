@@ -10,6 +10,9 @@ public class RocketLol : MonoBehaviour
     public bool up;
     public bool down;
     public bool triggered;
+
+    public GameObject Explosion;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -55,7 +58,8 @@ public class RocketLol : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-
+        Instantiate(Explosion, transform.position, transform.rotation);
+        Destroy(gameObject);
     }
 
 

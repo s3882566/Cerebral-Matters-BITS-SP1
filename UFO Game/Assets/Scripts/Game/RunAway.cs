@@ -14,16 +14,16 @@ public class RunAway : MonoBehaviour
     public float moveSpeed;
     public Animator animator;
 
-    public int issafe;
+    public bool issafe;
 
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        target = GameObject.FindWithTag("safe").transform;
+        //target = GameObject.FindWithTag("safe").transform;
         ufo = GameObject.FindWithTag("Player").transform;
         Spawn = transform.position;
-        issafe = 0;
+        issafe = false;
     }
 
     // Update is called once per frame
@@ -37,14 +37,13 @@ public class RunAway : MonoBehaviour
     {
         if (Vector3.Distance(ufo.position, transform.position) <= runRadius)
         {
-            Vector3 targetPosition = new Vector3(target.position.x, target.position.y, transform.position.z);
 
-            Vector3 temp = Vector3.MoveTowards(transform.position, target.position, moveSpeed * Time.deltaTime);
+            Vector3 targetPos = Vector3.MoveTowards(transform.position, target.position, moveSpeed * Time.deltaTime);
 
-            temp.y = -8.08f;
-            rb.MovePosition(temp);
+                rb.MovePosition(targetPos);
 
-            animator.SetFloat("Speed", Mathf.Abs(moveSpeed));
+                animator.SetFloat("Speed", Mathf.Abs(moveSpeed));
+            
         }
         else if (Vector3.Distance(ufo.position, transform.position) >= runRadius)
         {
@@ -59,9 +58,24 @@ public class RunAway : MonoBehaviour
     {
         if (col.gameObject.CompareTag("safe"))
         {
-            issafe = 1;
+            issafe = true;
+            animator.SetBool("safety", true);
             Debug.Log("safe");
         }
+    }
+
+    void OnTriggerExit2D(Collider2D col)
+    {
+        if (col.gameObject.CompareTag("safe"))
+        {
+            animator.SetBool("safety", false);
+            issafe = false;
+        }
+    }
+
+    public bool getsafe()
+    {
+        return issafe;
     }
 
 

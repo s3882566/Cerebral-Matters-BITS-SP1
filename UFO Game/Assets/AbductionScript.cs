@@ -24,15 +24,9 @@ public class AbductionScript : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.GetComponent<RunAway>().issafe == 1)
+        if (collision.GetComponent<RunAway>().getsafe() is false)
         {
-            Debug.Log("safe is 1");
-        }
-
-        else 
-        { 
-
-        
+                  
 
             if (collision.gameObject.CompareTag("Adult"))
             {
