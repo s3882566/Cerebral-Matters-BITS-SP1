@@ -37,12 +37,14 @@ public class RunAway : MonoBehaviour
     {
         if (Vector3.Distance(ufo.position, transform.position) <= runRadius)
         {
-
+            
             Vector3 targetPos = Vector3.MoveTowards(transform.position, target.position, moveSpeed * Time.deltaTime);
-
                 rb.MovePosition(targetPos);
 
-                animator.SetFloat("Speed", Mathf.Abs(moveSpeed));
+            
+
+
+            animator.SetFloat("Speed", Mathf.Abs(moveSpeed));
             
         }
         else if (Vector3.Distance(ufo.position, transform.position) >= runRadius)
@@ -51,6 +53,8 @@ public class RunAway : MonoBehaviour
 
             rb.MovePosition(moveBack);
             
+
+
         }
     }
 

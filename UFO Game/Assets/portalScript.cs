@@ -6,11 +6,13 @@ using UnityEngine.SceneManagement;
 public class portalScript : MonoBehaviour
 {
     public bool portalUnlocked = false;
+    public Animator anim;
 
     List<AsyncOperation> scenesToLoad = new List<AsyncOperation>();
 
     public void UnlockPortal()
     {
+        anim.SetBool("portalactive", true);
         portalUnlocked = true;
     }
 

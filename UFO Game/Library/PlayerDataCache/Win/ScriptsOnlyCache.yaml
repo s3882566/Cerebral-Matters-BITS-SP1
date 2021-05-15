@@ -15,6 +15,7 @@ ScriptsOnlyBuild:
     - PlayerMovement
     - ProgressTracker
     - RandomSoundScript
+    - RocketLol
     - RunAway
     - SkinSelector
     - TimerCountdown
@@ -22,7 +23,6 @@ ScriptsOnlyBuild:
     - TutorialScript
     - VolumeSettings
     - destroyAfterEffect
-    - patrol
     - portalScript
     Unity.2D.Animation.Editor.dll:
     - UnityEditor.U2D.Animation.BoneGizmo
@@ -51,8 +51,10 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -132,6 +134,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 58
       Script: {instanceID: 0}
+    - Class: 60
+      Script: {instanceID: 0}
     - Class: 61
       Script: {instanceID: 0}
     - Class: 62
@@ -203,9 +207,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 4268}
     - Class: 114
-      Script: {instanceID: 4404}
-    - Class: 114
       Script: {instanceID: 4422}
+    - Class: 114
+      Script: {instanceID: 4542}
     - Class: 114
       Script: {instanceID: 4828}
     - Class: 114
@@ -782,7 +786,7 @@ ScriptsOnlyBuild:
     className: CollisionDetect
   - hash:
       serializedVersion: 2
-      Hash: aa46df4f959c48f81f3f3dcbcda9f1b7
+      Hash: d592bffcf991a6eb3d12d0229206767b
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: portalScript
@@ -1292,7 +1296,7 @@ ScriptsOnlyBuild:
     className: PhysicsRaycaster
   - hash:
       serializedVersion: 2
-      Hash: afc5b93a7b192de2dcb3832fe35a5c7e
+      Hash: 16e72cbd4759a31a5434aad3b71be6e9
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: RocketLol
@@ -1442,7 +1446,7 @@ ScriptsOnlyBuild:
     className: SpawnRocket
   - hash:
       serializedVersion: 2
-      Hash: a13d3b03fa9544909c531c8e3d85b80a
+      Hash: 51d76ed64fc3915237144a018ad1184b
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: RunAway
