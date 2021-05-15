@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class RunAway : MonoBehaviour
 {
-
+    public bool HardMode;
     private Rigidbody2D rb;
     public Transform target;
     public Transform ufo;
@@ -15,6 +15,7 @@ public class RunAway : MonoBehaviour
     public Animator animator;
 
     public bool issafe;
+    private bool spotted;
 
     // Start is called before the first frame update
     void Start()
@@ -24,18 +25,55 @@ public class RunAway : MonoBehaviour
         ufo = GameObject.FindWithTag("Player").transform;
         Spawn = transform.position;
         issafe = false;
+        HardMode = true;
     }
 
     // Update is called once per frame
     void FixedUpdate()
     {
-        change = Vector3.zero;
-        CheckDistance();
+       
+           change = Vector3.zero;
+
+            if (HardMode is true)
+            {
+                if (spotted is true)
+            {
+                Vector3 targetPos = Vector3.MoveTowards(transform.position, target.position, moveSpeed * Time.deltaTime);
+                rb.MovePosition(targetPos);
+
+                animator.SetFloat("Speed", Mathf.Abs(moveSpeed));
+            }
+                
+                CheckDistanceHard();
+            }
+            else if (HardMode is false)
+            {
+                // CheckDistance();
+            }
+        
     }
+
+    void CheckDistanceHard()
+    {
+        if (Vector3.Distance(ufo.position, transform.position) <= runRadius)
+        {
+
+            spotted = true;
+            
+               // Vector3 targetPos = Vector3.MoveTowards(transform.position, target.position, moveSpeed * Time.deltaTime);
+                //rb.MovePosition(targetPos);
+
+                //animator.SetFloat("Speed", Mathf.Abs(moveSpeed));
+
+                
+            
+        }
+    }
+
 
     void CheckDistance()
     {
-        if (Vector3.Distance(ufo.position, transform.position) <= runRadius)
+         if (Vector3.Distance(ufo.position, transform.position) <= runRadius)
         {
             
             Vector3 targetPos = Vector3.MoveTowards(transform.position, target.position, moveSpeed * Time.deltaTime);
@@ -82,5 +120,5 @@ public class RunAway : MonoBehaviour
         return issafe;
     }
 
+    }
 
-}
