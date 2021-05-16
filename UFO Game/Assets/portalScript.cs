@@ -7,7 +7,9 @@ public class portalScript : MonoBehaviour
 {
     public bool portalUnlocked = false;
     public Animator anim;
-
+    public GameObject portal;
+    public GameObject UFO;
+    public GameObject ufoportal;
     public string nextScene;
 
 
@@ -19,6 +21,7 @@ public class portalScript : MonoBehaviour
     {
         if (portalUnlocked is true)
         {
+            portal.GetComponent<AudioSource>().enabled = true;
             anim.SetBool("portalactive", true);
         }
     }
@@ -32,8 +35,22 @@ public class portalScript : MonoBehaviour
     {
         if (portalUnlocked)
         {
-            scenesToLoad.Add(SceneManager.LoadSceneAsync(nextScene));
+            StartCoroutine(timer());
+
+
 
         }
+    }
+
+    IEnumerator timer()
+    {
+        Instantiate(ufoportal, UFO.transform.position, UFO.transform.rotation);
+        Destroy(UFO);
+
+        yield return new WaitForSeconds(10);
+
+        scenesToLoad.Add(SceneManager.LoadSceneAsync(nextScene));
+
+
     }
 }
