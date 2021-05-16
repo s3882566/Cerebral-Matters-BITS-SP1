@@ -12,6 +12,7 @@ TagManager:
   - Invisiwall
   - Instakill
   - FemElderly
+  - MusicMenu
   layers:
   - Default
   - TransparentFX

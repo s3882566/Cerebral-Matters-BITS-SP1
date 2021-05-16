@@ -8,6 +8,8 @@ public class portalScript : MonoBehaviour
     public bool portalUnlocked = false;
     public Animator anim;
 
+    public string nextScene;
+
 
 
     List<AsyncOperation> scenesToLoad = new List<AsyncOperation>();
@@ -30,7 +32,7 @@ public class portalScript : MonoBehaviour
     {
         if (portalUnlocked)
         {
-            scenesToLoad.Add(SceneManager.LoadSceneAsync("Credits"));
+            scenesToLoad.Add(SceneManager.LoadSceneAsync(nextScene));
 
         }
     }

@@ -18903,6 +18903,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   portalUnlocked: 0
   anim: {fileID: 1118309342}
+  nextScene: Credits
 --- !u!212 &1118309339
 SpriteRenderer:
   m_ObjectHideFlags: 0
