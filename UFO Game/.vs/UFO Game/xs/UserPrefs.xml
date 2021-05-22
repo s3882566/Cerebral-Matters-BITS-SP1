@@ -1,8 +1,9 @@
 ﻿<Properties StartupConfiguration="{FC588EBC-8499-46DC-2C88-3411EA4227F4}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/MainMenu.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/GUI/DialogueManager.cs">
     <Files>
-      <File FileName="Assets/SkinSelector.cs" Line="13" Column="1" />
-      <File FileName="Assets/Scripts/MainMenu.cs" Line="37" Column="1" />
+      <File FileName="Assets/Scripts/GUI/DialogueManager.cs" Line="38" Column="1" />
+      <File FileName="Assets/Scripts/Tutorials/Tut1.cs" Line="40" Column="45" />
+      <File FileName="Assets/Scripts/Tutorials/Tut2.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -10,7 +11,10 @@
           <Node name="UFO Game" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="MainMenu.cs" selected="True" />
+                <Node name="GUI" expanded="True">
+                  <Node name="DialogueManager.cs" selected="True" />
+                </Node>
+                <Node name="Tutorials" expanded="True" />
               </Node>
             </Node>
           </Node>
@@ -20,7 +24,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="dd931381-b0a8-4bee-8acb-126679aef4fe" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="3e6cf8e3-0192-4280-aabe-3cc20d2c1695" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

@@ -33,15 +33,13 @@ public class Tut1 : MonoBehaviour
     void TrackMovement()
     {
         StartCoroutine(timer());
-        
-
     }
 
     IEnumerator timer()
     {
         yield return new WaitForSeconds(10);
 
-        if(hasmoved is true)
+        if (hasmoved is true)
         {
             dialoguetr.GetComponent<DialogueTrigger>().TriggerDialogue(1);
             Finish();

@@ -13,12 +13,13 @@ public class DialogueManager : MonoBehaviour
 
     void Start()
     {
+        
         sentences = new Queue<string>();
     }
 
     public void StartDialogue(Dialogue dialogue)
     {
-
+       
         animator.SetBool("IsOpen", true);
         sentences.Clear();
 
@@ -27,15 +28,16 @@ public class DialogueManager : MonoBehaviour
         {
             sentences.Enqueue(sentence);
         }
-
+        //Time.timeScale = 0f;
         DisplayNextSentence();
+        //Time.timeScale = 1f;
     }
 
     public void DisplayNextSentence()
     {
 
 
-        Time.timeScale = 1f;
+        
         if (sentences.Count == 0)
         {
             EndDialogue();
@@ -50,9 +52,10 @@ public class DialogueManager : MonoBehaviour
     IEnumerator TypeSentence(string sentence)
     {
         // Delay typewriter effect the dialogue has time to animate onto the screen first
-        yield return new WaitForSeconds(0.25f);
+        //yield return new WaitForSeconds(0.25f);
 
         // Pause game after dialogue box has etered screen
+
         Time.timeScale = 0f;
 
         // Typewriter Effect
@@ -62,10 +65,12 @@ public class DialogueManager : MonoBehaviour
             dialogueText.text += letter;
             yield return null;
         }
+        Time.timeScale = 1f;
     }
 
     void EndDialogue()
     {
+        
         animator.SetBool("IsOpen", false);
     }
 
